@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+.personal-data {
+	font-family: sans-serif;
+	border: 1px solid black;
+	width: 300px;
+	border-radius: 5px;
+}
+
+.container {
+	border: none;
+}
+
+.title {
+	font-weight: 700;
+	padding-top: 15px;
+}
+
+.label {
+	display: block;
+}
+
+.input {
+	border-radius: 5px;
+	min-width: 220px;
+	padding: 5px;
+	margin: 6px 0;
+}
+
+.message {
+	min-width: 220px;
+	border-radius: 5px;
+	margin-top: 6px;
+	resize: vertical;
+	max-height: 200px;
+	padding: 6px;
+}
+
+.checkbox {
+	cursor: pointer;
+}
+
+.button {
+	cursor: pointer;
+	margin: 0 0 20px 20px;
+	border: none;
+	border-radius: 3px;
+}
