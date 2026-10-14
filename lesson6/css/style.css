@@ -1,0 +1,46 @@
+html {
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: 1320px;
+	height: 80px;
+	padding: 0 15px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	background-color: #000000;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.nav {
+	display: flex;
+	gap: 35px;
+}
+.nav a {
+	color: #000000;
+}
+
+.number {
+	color: #000000;
+	text-decoration: none;
+}
